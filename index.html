@@ -4,22 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cleopatra Degher</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            max-width: 600px;
-            margin: 100px auto;
-            padding: 20px;
-            line-height: 1.6;
-            color: #333;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        h1 {
-            font-weight: normal;
+
+        body {
+            font-family: 'EB Garamond', Georgia, serif;
+            background-color: #f1ebc6;
+            color: #170d01;
+            line-height: 1.7;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+        }
+
+        .name {
+            font-size: 48px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
+
+        nav {
+            background-color: #170d01;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        nav a {
+            color: #f1ebc6;
+            text-decoration: none;
+            font-size: 18px;
+            letter-spacing: 1px;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.7;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        section {
+            margin-bottom: 80px;
+        }
+
+        section h2 {
+            font-size: 28px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #170d01;
+        }
+
+        section p {
+            font-size: 18px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+            opacity: 0.7;
         }
     </style>
 </head>
 <body>
-    <h1>Hello, I'm Cleopatra</h1>
-    <p>Welcome to my website. More coming soon.</p>
+    <header>
+        <h1 class="name">Cleopatra Degher</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#writing">Writing</a></li>
+            <li><a href="#music">Music</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Welcome. More coming soon.</p>
+        </section>
+
+        <section id="writing">
+            <h2>Writing</h2>
+            <p>Coming soon.</p>
+        </section>
+
+        <section id="music">
+            <h2>Music</h2>
+            <p>Coming soon.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Cleopatra Degher
+    </footer>
 </body>
 </html>
