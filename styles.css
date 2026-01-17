@@ -6,8 +6,8 @@
 
 body {
     font-family: 'EB Garamond', Georgia, serif;
-    background-color: #faf6f0;
-    color: #3d4a52;
+    background-color: #f0f4f7;
+    color: #2d3a45;
     line-height: 1.7;
 }
 
@@ -24,7 +24,7 @@ header {
 }
 
 nav {
-    background-color: #c67b5f;
+    background-color: #5a6d7a;
     padding: 15px 0;
 }
 
@@ -36,7 +36,7 @@ nav ul {
 }
 
 nav a {
-    color: #faf6f0;
+    color: #f0f4f7;
     text-decoration: none;
     font-size: 18px;
     letter-spacing: 1px;
@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 nav a.active {
-    border-bottom: 1px solid #faf6f0;
+    border-bottom: 1px solid #f0f4f7;
 }
 
 main {
