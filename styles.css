@@ -6,7 +6,7 @@
 
 body {
     font-family: 'EB Garamond', Georgia, serif;
-    background-color: #191970;
+    background-color: #1a4a5a;
     color: #fefbf5;
     line-height: 1.7;
 }
@@ -21,6 +21,7 @@ header {
     font-weight: 400;
     letter-spacing: 2px;
     margin-bottom: 30px;
+    color: #f8d0d8;
 }
 
 nav {
