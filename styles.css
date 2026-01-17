@@ -75,6 +75,12 @@ main p {
     margin-bottom: 30px;
 }
 
+.album-thumb {
+    max-width: 200px;
+    width: 100%;
+    margin: 20px 0;
+}
+
 footer {
     text-align: center;
     padding: 30px 20px;
