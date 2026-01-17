@@ -25,7 +25,7 @@ header {
 }
 
 nav {
-    background-color: #e54d94;
+    background-color: #7eb8d8;
     padding: 15px 0;
 }
 
@@ -37,7 +37,7 @@ nav ul {
 }
 
 nav a {
-    color: #fefbf5;
+    color: #1a3a6a;
     text-decoration: none;
     font-size: 18px;
     letter-spacing: 1px;
@@ -49,7 +49,7 @@ nav a:hover {
 }
 
 nav a.active {
-    border-bottom: 1px solid #fefbf5;
+    border-bottom: 1px solid #1a3a6a;
 }
 
 main {
