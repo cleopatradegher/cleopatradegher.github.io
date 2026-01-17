@@ -62,7 +62,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 60px 20px;
-    color: #4a3535;
+    color: #000000;
 }
 
 main p {
@@ -79,5 +79,5 @@ footer {
     text-align: center;
     padding: 30px 20px;
     font-size: 14px;
-    color: #4a3535;
+    color: #000000;
 }
