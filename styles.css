@@ -85,10 +85,20 @@ main p {
     font-size: 22px;
 }
 
+.album-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
 .album-thumb {
     max-width: 200px;
     width: 100%;
-    margin: 20px 0;
+}
+
+.album-links {
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
