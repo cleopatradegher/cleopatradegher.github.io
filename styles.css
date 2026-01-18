@@ -16,6 +16,10 @@ header {
     padding: 120px 20px 0;
 }
 
+.name-link {
+    text-decoration: none;
+}
+
 .name {
     font-size: 48px;
     font-weight: 400;
