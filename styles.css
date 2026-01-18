@@ -104,6 +104,7 @@ main p {
 
 .social-links {
     display: flex;
+    justify-content: center;
     gap: 40px;
     font-size: 22px;
 }
