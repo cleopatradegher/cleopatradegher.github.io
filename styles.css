@@ -80,8 +80,8 @@ main p {
 }
 
 .photo {
-    max-width: 350px;
-    width: 100%;
+    width: 350px;
+    min-width: 350px;
     margin-bottom: 30px;
 }
 
